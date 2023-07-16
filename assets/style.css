@@ -1,0 +1,28 @@
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Elephant', serif;
+}
+
+.brand-logo {
+    font-size: 1.5em;
+}
+
+.center-nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-nav-items li {
+    margin: 0 10px;
+}
+
+.center-nav-items a {
+    text-decoration: none;
+}
